@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 182, 193;
+  --background-start-rgb: 255, 182, 193;
+  --background-end-rgb: 255, 182, 193;
+}
+
+
+body {
+  background-color: rgb(255, 182, 193);
+  color: White;
+}
+
+.gifContainer{
+  width: 400px;
+  height: 400px;
+}
+.question{
+  font-size: 2.5em;
+  font-weight: bold;
+  background-color: lightblue;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  margin: 15px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.questionWord{
+  color: red;
+}
+
+.buttonContainer{
+  display: flex;
+  width: 60%;
+  height: 400px;
+  justify-content: space-around;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
