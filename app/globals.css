@@ -40,6 +40,14 @@ body {
   justify-content: space-around;
 }
 
+/* Add these styles for mobile devices */
+@media only screen and (max-width: 600px) {
+  .buttonContainer {
+    width: 50vh; 
+  }
+
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
