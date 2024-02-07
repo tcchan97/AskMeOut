@@ -24,7 +24,7 @@ body {
   background-color: lightblue;
   padding-left: 15px;
   padding-right: 15px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 15px;
   box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
 }
@@ -33,10 +33,22 @@ body {
   color: red;
 }
 
+.mainContainer{
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 5%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
 .buttonContainer{
   display: flex;
   width: 60%;
-  height: 400px;
   justify-content: space-around;
 }
 

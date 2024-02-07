@@ -145,7 +145,8 @@ export default function Home() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
+    <main  className="flex min-h-screen flex-col items-center p-24">
+      <div className='mainContainer'>
       <div className='gifContainer'>
         <Image src={gifImage} alt="my gif" height={400} width={400} />
       </div>
@@ -172,7 +173,7 @@ export default function Home() {
       )
 
       }
-
+    </div>
     </main>
   );
 }
